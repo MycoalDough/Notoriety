@@ -1,0 +1,9 @@
+//basically a bank raiding game, you enter a bank, hold people hostage, with stars that make increasingly harder enemies spawn in
+
+//enemies: police, swat, special forces
+
+//you have to collect valueables and breaking into a final safe
+
+//you can choose your weapon loadout
+
+//nav mesh agents probably
