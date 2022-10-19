@@ -1,0 +1,29 @@
+public int phase;
+public int hp = 1300;
+
+public void OnCollisionEnter2D(Collision other)
+{
+  if(other.gameObject.tag == "PeashooterBullet")
+  {
+    Destroy(other.gameObject);
+    hp = hp - 4;
+  }
+}
+
+
+public void Update()
+{
+  
+}
+
+public void changeStage()
+{
+  if(phase1)
+  {
+    phase = Random.Range(1, 5);
+  }
+  if(phase2)
+  {
+    phase = Random.Range(5, 7);
+  }
+}
